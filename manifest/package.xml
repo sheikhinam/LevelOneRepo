@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountActivationController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTriggerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+   <!-- <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    -->
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>ProductTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AuraAccountActivation</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <!--
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    -->
+    <version>57.0</version>
+</Package>

@@ -1,0 +1,8 @@
+<aura:component controller="AccountActivationController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global">
+   
+    <aura:attribute name="activationSummary" type="String" />
+
+    <lightning:button variant="brand" label="Activate Account" onclick="{!c.activateAccount}" />
+    <lightning:input aura:id="summaryInput" label="Account Activation Summary"
+                     value="{!v.activationSummary}" required="true" />
+</aura:component>
